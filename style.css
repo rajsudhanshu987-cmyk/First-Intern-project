@@ -172,3 +172,43 @@ img {
   background: #f5fbf7;
 }
 
+.hero-image img {
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  background: white;
+  width: 100%;
+    height: 450px;
+    object-fit: cover;
+   
+}
+
+.intro-section,
+.impact-section,
+.cta-section {
+  background: white;
+  border-radius: 20px;
+  margin-top: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 1.2rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.intro-copy,
+.intro-list {
+  background: #f8fcf9;
+  padding: 1.1rem 1.2rem;
+  border-radius: 16px;
+}
+
+.intro-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
