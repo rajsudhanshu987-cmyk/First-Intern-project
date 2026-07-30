@@ -250,3 +250,23 @@ img {
   color: var(--primary-dark);
 }
 
+.impact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.impact-list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.impact-list li {
+  background: #f3f8f5;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+}
+
