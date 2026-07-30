@@ -287,3 +287,48 @@ img {
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
 }
 
+.cta-section {
+  padding: 2.5rem 1.5rem;
+}
+
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-start;
+}
+
+.cta-box {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 1.2rem;
+  align-items: start;
+  background: linear-gradient(135deg, #f8fcf9 0%, #ffffff 100%);
+  padding: 1.4rem;
+  border-radius: 18px;
+}
+
+.contact-details {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.1rem;
+}
+
+.contact-details ul {
+  list-style: none;
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 0.7rem;
+}
+
+.contact-details strong {
+  display: block;
+  color: var(--primary-dark);
+  margin-bottom: 0.2rem;
+}
+
+.contact-details span {
+  color: var(--muted);
+}
+
